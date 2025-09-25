@@ -1,0 +1,6 @@
+streamlit
+scikit-learn
+spacy
+joblib
+gdown
+PyMuPDF
