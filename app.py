@@ -7,8 +7,8 @@ import gdown
 import fitz  # PyMuPDF for PDF text extraction
 
 # URLs for hosted models on Google Drive (replace FILE_ID with your actual IDs)
-MODEL_URL = "https://drive.google.com/uc?id=YOUR_MODEL_FILE_ID"
-VECTORIZER_URL = "https://drive.google.com/uc?id=YOUR_VECTORIZER_FILE_ID"
+MODEL_URL = "https://drive.google.com/uc?id=1loKGKBPyenJehnWw88tonhhOK0a0M9xA"
+VECTORIZER_URL = "https://drive.google.com/uc?id=1JI17Jg2v3WdjsxhOjJ9KvBCWQhfrjUEd"
 
 def download_model_files():
     if not os.path.exists("clause_classifier.joblib"):
@@ -75,3 +75,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
